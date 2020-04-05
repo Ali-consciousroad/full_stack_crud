@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS users;
+
+/* User table */
+CREATE TABLE users (
+user_id INTEGER NOT NULL AUTO_INCREMENT KEY,
+name VARCHAR(128),
+email VARCHAR(128),
+password VARCHAR(128)
+) ENGINE=InnoDB CHARACTER SET=utf8;
+
